@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "features": [
+    {
+      "id": "example-user-journey",
+      "category": "example",
+      "description": "Replace this example with one independently verifiable user outcome.",
+      "steps": [
+        "Open the real feature entry with the stated preconditions.",
+        "Perform the user action and observe the result and side effects."
+      ],
+      "passes": false,
+      "evidence": []
+    }
+  ]
+}

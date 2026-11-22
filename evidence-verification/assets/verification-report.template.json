@@ -1,0 +1,27 @@
+{
+  "version": {
+    "id": "replace-with-commit-build-or-file-version",
+    "environment": "replace-with-test-environment",
+    "target": "replace-with-real-entry-or-artifact"
+  },
+  "overall": "blocked",
+  "cases": [
+    {
+      "id": "replace-with-case-id",
+      "requirement": "Replace with the observable acceptance criterion.",
+      "preconditions": ["Replace with required data and state."],
+      "steps": ["Replace with real operations before running verification."],
+      "expected": "Replace with the observable expected result.",
+      "actual": "Not run: replace with the actual result or blocker.",
+      "status": "blocked",
+      "evidence": [
+        {
+          "type": "observation",
+          "value": "Replace with a concrete observation."
+        }
+      ],
+      "blocker": "Replace with the exact step and unlock condition."
+    }
+  ],
+  "human_review": ["List subjective or uncovered checks that still need a person."]
+}
