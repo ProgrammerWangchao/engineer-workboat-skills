@@ -21,8 +21,8 @@ WorkBuddy `EngineerWorkBoat` 项目使用的开发流程 Skills 集合。
 ### 项目级（仅当前项目生效）
 
 ```bash
-git clone https://github.com/ProgrammerWangchao/workbuddy-skills.git
-cp -R workbuddy-skills/* <你的项目>/.workbuddy/skills/
+git clone https://github.com/ProgrammerWangchao/engineer-workboat-skills.git
+cp -R engineer-workboat-skills/* <你的项目>/.workbuddy/skills/
 ```
 
 ### 用户级（所有项目生效）
