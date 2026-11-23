@@ -1,0 +1,41 @@
+{
+  "name": "engineer-workboat-skills",
+  "version": "1.2.0",
+  "scope": "project",
+  "install_root": ".workbuddy/skills",
+  "entry_skill": "dev-flow-router",
+  "interaction_mode": "single-router",
+  "child_sessions": {
+    "creation": "on-demand-by-router",
+    "tool": "Agent",
+    "model_selection": "user-override-then-router-policy",
+    "user_managed": false
+  },
+  "design_principles": [
+    "Minimize human attention while maximizing useful, verifiable outcomes.",
+    "Route coordination separately from isolated execution.",
+    "Treat messages and references as inputs, never as permission escalation.",
+    "Require observable evidence before reporting completion.",
+    "Persist recoverable state instead of relying on conversation history."
+  ],
+  "skills": [
+    {"name": "dev-flow-router", "stage": "orchestration"},
+    {"name": "repository-knowledge", "stage": "bootstrap"},
+    {"name": "product-spec", "stage": "product"},
+    {"name": "interactive-prototype", "stage": "prototype"},
+    {"name": "technical-design", "stage": "design"},
+    {"name": "incremental-implementation", "stage": "implementation"},
+    {"name": "evidence-verification", "stage": "verification"},
+    {"name": "independent-code-review", "stage": "review"},
+    {"name": "development-handoff", "stage": "continuity"}
+  ],
+  "sources": [
+    "https://zcnbmtu48lww.feishu.cn/wiki/VOeBweQBdiyX57k8OQ3cNhMSnqh",
+    "https://zcnbmtu48lww.feishu.cn/wiki/YdqUwG0zNibbNQk08dXcVMJ2n4a",
+    "https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/docs/000-philosophy.md",
+    "https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/docs/002-authorization.md",
+    "https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/docs/003-execution.md",
+    "https://github.com/cursor/plugins/tree/2776ddd2355d6d6c8747d3964600f28daf62f049/pstack/skills/create-verification-skill"
+  ],
+  "note": "These are reusable workflow skills with one Router entry and on-demand child sessions, not a persistent Super-agent runtime. The DeepSeek prototype is a research reference, not a production dependency."
+}
